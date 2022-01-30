@@ -1,0 +1,26 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+hr {
+    margin:0;
+    border-top: 1px solid #eeeeee;
+}
+.btn-primary {
+    background-color: $blue;
+    border-color: $dk-blue;
+    text-transform: uppercase;
+    padding: 6px 24px;
+    &:hover {
+        background-color: $dk-blue;
+    }
+}
+.alert {
+    margin: 15px;
+    border-radius: 0px;
+}
+.page-top {
+    @media (min-width: $screen-sm-min) {
+        margin-top: 88px;
+    }
+}

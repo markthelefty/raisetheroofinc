@@ -1,0 +1,14 @@
+.breadcrumb {
+    background: none;
+    border-radius: 0;
+    padding: 6px 0;
+    margin: 0;
+    a {
+        font-weight: 400;
+        color: #ccc;
+    }
+    .active {
+        font-weight: 400;
+        color: $black;
+    }
+}

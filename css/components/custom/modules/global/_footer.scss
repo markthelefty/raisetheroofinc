@@ -1,0 +1,12 @@
+footer {
+	min-height: 40px;
+	background: $blue;
+	border-bottom:4px solid $dk-blue;
+	padding-top:10px;
+	p {
+		margin:0;
+		text-align: center;
+		color:$white;
+		font-weight:300;
+	}
+}

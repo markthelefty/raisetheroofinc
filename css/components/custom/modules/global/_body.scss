@@ -1,0 +1,27 @@
+body {
+    @include lato;
+    background-color: $white;
+    color: $text-black;
+}
+
+
+.class-name {
+
+    //XS & up go here
+
+    @media (min-width: $screen-sm-min) {
+
+        //SM & up go here
+    }
+
+    @media (min-width: $screen-md-min) {
+
+        //MD & up go here
+    }
+
+    @media (min-width: $screen-lg-min) {
+
+        //LG & up go here
+    }
+}
+

@@ -1,0 +1,24 @@
+.slider {
+    width: 90%;
+    margin: 0 auto 50px auto;
+    @media (min-width: $screen-sm-min) {
+        width: 100%;
+        margin-bottom:80px;
+    }
+    img {
+        padding: 0 15px;
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: .6;
+        }
+    }
+    .slick-dots li button:before {
+        font-size: 15px;
+    }
+    .slick-dots li.slick-active button:before {
+        color: $gold;
+    }
+    .slick-prev:before, .slick-next:before {
+        color:#bbb;
+    }
+}

@@ -1,0 +1,87 @@
+.navbar {
+    padding: 10px 0;
+    border-bottom: 6px solid;
+    margin-bottom: 0;
+}
+.navbar-default {
+    background-color: $blue;
+    border-color: $dk-blue;
+    .navbar-brand {
+        @include hide-text;
+        margin-left: 15px;
+        width: 172px;
+        height: 54px;
+        transition: opacity 0.2s ease;
+        background: url("../img/logo/logo-mobile.png") no-repeat;
+        @include img-retina("../img/logo/logo-mobile@2x.png", 172px, 54px);
+        @media (min-width: $screen-sm-min) {
+            width: 198px;
+            height: 62px;
+            background: url("../img/logo/logo.png") no-repeat;
+            @include img-retina("../img/logo/logo@2x.png", 198px, 62px);
+        }
+        &:hover {
+            opacity: .4;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                color: $white;
+                font-size: 17px;
+                &:hover {
+                    color: $lt-gray;
+                }
+                &:focus {
+                    color: $white;
+                }
+            }
+        }
+    }
+    .navbar-collapse {
+        margin-top: 10px;
+        border-top: 1px solid $dk-blue;
+        @media (min-width: $screen-sm-min) {
+            border-top: none;
+        }
+    }
+    .navbar-toggle {
+        border: none;
+        &:hover, &:focus {
+            background-color: transparent;
+        }
+        .icon-bar {
+            background-color: $white;
+            width: 42px;
+            height: 3px;
+        }
+        .icon-bar+.icon-bar {
+            margin-top: 5px;
+        }
+    }
+}
+.navbar-fixed-top {
+    position: static;
+    @media (min-width: $screen-sm-min) {
+        position: fixed;
+    }
+}
+.navbar-right {
+    margin-top: 15px;
+}
+//active nav highlight
+#home .nav li a.home {
+    color: $gold;
+}
+#services .nav li a.services {
+    color: $gold;
+}
+#gallery .nav li a.gallery {
+    color: $gold;
+}
+#about .nav li a.about {
+    color: $gold;
+}
+#contact .nav li a.contact {
+    color: $gold;
+}

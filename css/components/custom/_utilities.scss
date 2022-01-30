@@ -1,0 +1,6 @@
+.sm-screen {
+    @extend .visible-xs;
+}
+.lg-screen {
+    @extend .hidden-xs;
+}

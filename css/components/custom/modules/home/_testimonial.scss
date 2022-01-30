@@ -1,0 +1,49 @@
+.testimonial {
+    background: url("../img/misc/bg-testimonial.png") 50% 50% $blue;
+    @include img-retina("../img/misc/bg-testimonial@2x.png", 27px, 27px);
+    color: $white;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 60px;
+    }
+    .testimonial-name {
+        text-align: right;
+        margin: 20px 0 0 0;
+        @media (min-width: $screen-sm-min) {
+            text-align: left;
+            border-left: 2px solid $white;
+            padding: 20px 0 30px 40px;
+            margin: 0;
+        }
+        p {
+            margin: 0;
+            &:nth-of-type(1) {
+                text-transform: uppercase;
+                font-size: 22px;
+            }
+            &:nth-of-type(2) {
+                font-size: 17px;
+                font-style: italic;
+                font-weight: 400;
+                @media (min-width: $screen-sm-min) {
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    .testimonial-copy {
+        p {
+            width: 90%;
+            margin-left: 20px;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 28px;
+            @media (min-width: $screen-sm-min) {
+                width: 100%;
+                margin-left: 0;
+                font-weight: 100;
+            }
+        }
+    }
+}

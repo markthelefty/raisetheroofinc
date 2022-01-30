@@ -1,0 +1,163 @@
+// Google Fonts
+// --------------------------------------------------
+
+/*
+Google Fonts Top 50 Most Popular as of 7-1-14
+Usage example: 
+
+@include source-sans-pro;
+
+
+NOTE: Uncomment the Style Sheets As Needed
+*/
+
+
+//@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@mixin source-sans-pro {font-family:'Source Sans Pro', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Dosis);
+@mixin dosis {font-family:'Dosis', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Abel);
+@mixin abel {font-family:'Abel', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@mixin noto-sans {font-family:'Noto Sans', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@mixin droid-sans {font-family:'Droid Sans', sans-serif;}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,400italic);
+@mixin lato {font-family:'Lato', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Arvo);
+@mixin arvo {font-family:'Arvo', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Cabin);
+@mixin cabin {font-family:'Cabin', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+@mixin playfair-display {font-family:'Playfair Display', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Lora);
+@mixin lora {font-family:'Lora', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@mixin pt-sans {font-family:'PT Sans', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@mixin pt-sans-narrow {font-family:'PT Sans Narrow', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Arimo);
+@mixin arimo {font-family:'Arimo', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@mixin ubuntu {font-family:'Ubuntu', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Bitter);
+@mixin bitter {font-family:'Bitter', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@mixin pt-serif {font-family:'PT Serif', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Lobster);
+@mixin lobster {font-family:'Lobster', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Anton);
+@mixin anton {font-family:'Anton', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@mixin shadows-into-light {font-family:'Shadows Into Light', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+@mixin rokkitt {font-family:'Rokkitt', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@mixin libre-baskerville {font-family:'Libre Baskerville', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Muli);
+@mixin muli {font-family:'Muli', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@mixin ubuntu-condensed {font-family:'Ubuntu Condensed', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@mixin droid-serif {font-family:'Droid Serif', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@mixin open-sans {font-family:'Open Sans', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto);
+@mixin roboto {font-family:'Roboto', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Oswald);
+@mixin oswald {font-family:'Oswald', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@mixin open-sans-condensed {font-family:'Open Sans Condensed', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@mixin roboto-condensed {font-family:'Roboto Condensed', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Raleway);
+@mixin raleway {font-family:'Raleway', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@mixin montserrat {font-family:'Montserrat', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@mixin yanone-kaffeesatz {font-family:'Yanone Kaffeesatz', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@mixin roboto-slab {font-family:'Roboto Slab', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@mixin oxygen {font-family:'Oxygen', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Francois+One);
+@mixin francois-one {font-family:'Francois One', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@mixin merriweather {font-family:'Merriweather', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@mixin titillium-web {font-family:'Titillium Web', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@mixin indie-flower {font-family:'Indie Flower', serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Play);
+@mixin play {font-family:'Play', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@mixin fjalla-one {font-family:'Fjalla One', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Nunito);
+@mixin nunito {font-family:'Nunito', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+@mixin archivo-narrow {font-family:'Archivo Narrow', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Signika);
+@mixin signika {font-family:'Signika', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@mixin varela-round {font-family:'Varela Round', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@mixin inconsolata {font-family:'Inconsolata', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@mixin cuprum {font-family:'Cuprum', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@mixin pacifico {font-family:'Pacifico', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+@mixin maven-pro {font-family:'Maven Pro', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+@mixin merriweather-sans {font-family:'Merriweather Sans', sans-serif;}
+
+//@import url(http://fonts.googleapis.com/css?family=Alegreya);
+@mixin alegreya {font-family:'Alegreya', serif;}

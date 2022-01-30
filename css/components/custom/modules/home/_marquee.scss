@@ -1,0 +1,17 @@
+.marquee {
+    margin-bottom: 60px;
+    position: relative;
+    overflow: auto;
+    border-bottom:2px solid #D8D8D8;
+    img {
+        width: 100%;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            float: left;
+        }
+    }
+}
